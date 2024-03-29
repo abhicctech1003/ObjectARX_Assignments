@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  Assignment7.cpp
+  dllmain.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(E:\Abhishek\07-ObjectARX\Assignment7\x64\Debug\Assignment7.dll) does not match the Linker's OutputFile property value (E:\Abhishek\07-ObjectARX\Assignment7\x64\Debug\Assignment7.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1393,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library E:\Abhishek\07-ObjectARX\Assignment7\x64\Debug\Assignment7.lib and object E:\Abhishek\07-ObjectARX\Assignment7\x64\Debug\Assignment7.exp
+rxapi.lib(libinit.obj) : warning LNK4099: PDB '' was not found with 'rxapi.lib(libinit.obj)' or at ''; linking object as if no debug info
+msvcrtd.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Assignment7.vcxproj -> E:\Abhishek\07-ObjectARX\Assignment7\x64\Debug\Assignment7.dll
